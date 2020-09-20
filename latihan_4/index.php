@@ -1,4 +1,6 @@
 <?php
+// 4. Contructor
+
 // Panggil Kelas Manusia
 require 'Manusia.php';
 

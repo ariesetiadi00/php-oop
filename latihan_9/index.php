@@ -1,4 +1,5 @@
 <?php
+// 9. Visibility
 
 // Panggil Semua Class
 require 'init.php';

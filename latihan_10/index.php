@@ -1,5 +1,5 @@
 <?php
-// 8. Overridding
+// 10. Setter dan Getter
 
 // Panggil Semua Class
 require 'init.php';
@@ -12,3 +12,7 @@ $dosen = new Dosen("Setiadi", 30, 4321);
 // Masukan object aku sebagai parameter, agar informasi bisa dicetak
 var_dump($mahasiswa->showInfo());
 var_dump($dosen->showInfo());
+echo '<hr>';
+var_dump($mahasiswa->getNama());
+$mahasiswa->setNama("Arie");
+var_dump($mahasiswa->getNama());

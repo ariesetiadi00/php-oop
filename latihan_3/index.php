@@ -1,17 +1,17 @@
 <?php
+
+// 3. Property dan Method
+
 // Panggil Kelas Manusia
 require 'Manusia.php';
 
 // Instance Class Manusia menjadi object
-$aku = new Manusia();
-$kamu = new Manusia();
+$aku = new Manusia("Tuarie", 20);
 
 // Set data pada class
 $aku->nama = "Tuarie";
 $aku->umur = 20;
 
-$kamu->nama = "Setiadi";
-$kamu->umur = 19;
 
 // Tampilan nama dan umur menggunakan method
 var_dump($aku->showNama());

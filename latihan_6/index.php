@@ -1,4 +1,5 @@
 <?php
+// 6. Inheritance 1
 
 // Panggil Kelas Manusia dan Cetak
 require 'Manusia.php';

@@ -1,4 +1,5 @@
 <?php
+// 7. Inheritance 2
 
 // Panggil Semua Class
 require 'init.php';

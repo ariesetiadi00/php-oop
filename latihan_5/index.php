@@ -1,4 +1,6 @@
 <?php
+// 5. Object Type
+
 // Panggil Kelas Manusia dan Cetak
 require 'Manusia.php';
 require 'Cetak.php';
