@@ -4,8 +4,8 @@
 class Manusia
 {
     // Properti
-    public $nama;
-    public $umur;
+    protected $nama;
+    protected $umur;
 
     // Contruct untuk mengisi nilai property
     public function __construct(

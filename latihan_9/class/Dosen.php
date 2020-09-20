@@ -1,20 +1,20 @@
 <?php
-class Mahasiswa extends Manusia
+class Dosen extends Manusia
 {
-    public $nim;
+    private $nid;
 
     // Contruct untuk mengisi nilai property
     public function __construct(
         $nama,
         $umur,
-        $nim
+        $nid
     ) {
         parent::__construct($nama, $umur);
-        $this->nim = $nim;
+        $this->nid = $nid;
     }
 
     public function showInfo()
     {
-        return "Mahasiswa : " . parent::showInfo() .  " - NIM {$this->nim}";
+        return "Dosen : " . parent::showInfo() . " - NID {$this->nid}";
     }
 }

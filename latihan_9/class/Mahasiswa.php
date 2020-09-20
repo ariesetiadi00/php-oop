@@ -1,7 +1,7 @@
 <?php
 class Mahasiswa extends Manusia
 {
-    public $nim;
+    private $nim;
 
     // Contruct untuk mengisi nilai property
     public function __construct(

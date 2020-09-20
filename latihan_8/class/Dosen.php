@@ -1,9 +1,20 @@
 <?php
 class Dosen extends Manusia
 {
+    public $nid;
 
-    public function showAll()
+    // Contruct untuk mengisi nilai property
+    public function __construct(
+        $nama,
+        $umur,
+        $nid
+    ) {
+        parent::__construct($nama, $umur);
+        $this->nid = $nid;
+    }
+
+    public function showInfo()
     {
-        return "Dosen : {$this->showInfo()} - NID {$this->nid}";
+        return "Dosen : " . parent::showInfo() . " - NID {$this->nid}";
     }
 }
